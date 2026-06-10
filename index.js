@@ -87,5 +87,14 @@ function pesquisarTarefa() {
   });
 }
 
+// Fechar modal com "Esc"
+document.addEventListener("keydown", (event) => {
+  if(event.key === "Escape" &&
+     criarTarefa.classList.contains("active")
+     ) {
+      fecharModal()
+     }
+})
+
 // Inicializar
 buscarTarefas();
