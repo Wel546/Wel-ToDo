@@ -214,6 +214,8 @@ footer {
   text-align: center;
   align-items: center;
   font-style: italic;
+  color: black;
+  visibility: visible;
 }
 
 /* Media Queries para dispositivos móveis */
