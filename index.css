@@ -209,6 +209,13 @@ body {
   background-color: rgb(19, 88, 167);
 }
 
+footer {
+  margin: 20px 0 0 0;
+  text-align: center;
+  align-items: center;
+  font-style: italic;
+}
+
 /* Media Queries para dispositivos móveis */
 
 @media (max-width: 768px) {
